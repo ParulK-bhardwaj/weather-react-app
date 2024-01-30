@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import DisplayWeather from './DisplayWeather'
+import DisplayWeather from '../DisplayWeather/DisplayWeather';
+import './Weather.css'
+
 
 function Weather() {
     const [zip, setZip] = useState('');
@@ -57,9 +59,8 @@ function Weather() {
     };
 
     return (
-        <div>
-            <h1> Weather </h1>
-            <form onSubmit={handleSubmit}>
+        <div className='weather'>
+            <form onSubmit={handleSubmit} className='weather-form'>
                 <label name="unit">Temperature Unit: </label>
                     <select onChange={handleUnitChange} value={unit}>
                         <option value="metric">Metric</option>
