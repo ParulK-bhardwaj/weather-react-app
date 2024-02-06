@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Weather React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). With this project I have connected to the OpenWeatherMap API and display the weather data. I have the controlled component pattern to handle user input.
+
 <img width="1883" alt="image" src="https://github.com/ParulK-bhardwaj/weather-react-app/assets/111934039/aa12bc12-8e30-4e1d-8e14-795c9de32650">
 
 ## Available Scripts
